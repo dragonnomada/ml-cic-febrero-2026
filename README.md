@@ -31,3 +31,34 @@ Mediante el ejemplo del Titanic se ve la necesidad de comprender la naturaleza d
 > Video
 
 https://drive.google.com/drive/folders/1to5JhwzKTAcOipkt7PNfdhxqndw2D4lw?usp=share_link
+
+## Sesión 101 - Jueves 29, enero
+
+> Resumen
+
+En esta clase práctica se trabajó sobre la práctica [ML-CIC-IPN-P101](ML-CIC-IPN-P101.pdf).
+
+## Sesión 101 - Martes 3, febrero
+
+> Resumen
+
+En esta clase teórica se mostró la teoría sobre la estructura de un proyecto de *Machine Learning* y las fases para estructurarlo. También se profundizó sobre los métodos visuales para analizar las características individuales y la influencia en la respuesta mediante contrastes numérico-numérico, numérico-categórico, categórico-numérico y categórico-categórico.
+
+> Fases del proyecto
+
+1. **Conjunto de datos** - Continen las características de análisis de forma natural
+2. **Características** - poseen una naturaleza numérica (cuantitativa) o categórica (cualitativa)
+3. **Respuesta** - Representan la características de mayor costo e influencia que desean ser predichas mediante las demás características informativas
+4. **Análisis descriptivo** - Se analizan las características individuales mediante la estadística según su naturaleza y la visualización de datos
+5. **Análisis predictivo** - Busca modelar el comportamiento de las respuestas mediante el ajuste de un modelo con la matriz de características y el vector de respuesta dividido en datos de entrenamiento y validación
+6. **Resultados** - Condensa los resultados de la validación y la comparación entre los 3 o más modelos propuestos para hacer la predicción
+
+> Gráficas individuales
+
+* **Numéricos** - Las gráficas de caja, densidad y de hoja que visualiza los cuartiles y mínimos y máximos (rangos) totales y relativos, así como los puntos atípicos
+* **Categóricos** - Las gráficas de barras (muchas categorías) y dona o pastel (pocas categorías) que muestran los conteos totales y proporciones entre las categorías para determinar las de mayor peso que serán usadas como base
+
+> Gráficas de contraste
+
+* **Respuesta numérica** - La gráfica de puntos si la característica informativa es numérica y la gráfica de caja y hoja si la característica informativa es categórica
+* **Respuesta categórica** - La gráfica de densidad segmentada si si la característica informativa es numérica y el mapa de calor si la característica informativa es categórica
