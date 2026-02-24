@@ -164,3 +164,33 @@ Los modelos principales para entender dos enfoques de la clasificación son:
 * **Curva logística** - Se basa en construir una curva que use la información ponderada de las características informativas o covariables y aplicarle a dicha ponderación o predictor lineal la función logística que se estructura de tal manera que para valores infinitos la respuesta será cercana a 1, mientras que para valores infinitos negativos la respuesta será cercana a cero. Esto se traduce como un problema de optimización donde debemos encontrar los pesos o ponderadores (parámetros de ajuste) que hagan que la curva explique mejor cuándo la respuesta será 0 o 1.
 
 También se revisó la matriz de confusión que permite contrastar las predicciones verdaderas o falsas sobre las respuestas positivas o negativas, de tal manera que se construyen cuatro posibles espacios de verdaderos positivos, verdaderos negativos, falsos positivos y falsos negativos, generando porcentajes sobre la precisión, sensibilidad y especificidad, así como una métrica que balancea la presición y sensibilidad para dar un rendimiento llamado F1-SCORE.
+
+## Sesión 302 - Jueves 12, febrero
+
+> Resumen
+
+En esta clase práctica se trabajaron los modelos de clasificación con el *Árbol de Decisión* y la *Curva Logística* usando las métricas de desempeño derivadas de la matriz de confusión, bajo el conjunto de datos del [titanic.csv](titanic.csv).
+
+> Libreta
+
+[S302.ipynb](S302.ipynb)
+
+Con esta clase práctica se podrá trabajar sobre la práctica [ML-CIC-IPN-P301](ML-CIC-IPN-P301.pdf).
+
+## Sesión 401 - Martes 17, febrero
+
+> Resumen
+
+En esta clase teórica se mostró la teoría sobre el problema de regresión y los modelos principales para hacer predicción o inferencia de una respuesta numérica continua con las características informativas.
+
+## Sesión 402 - Martes 19, febrero
+
+> Resumen
+
+En esta clase práctica se trabajaron los modelos de regresión con la *Regresión Lineal* y el *Soporte Vectorial con Kernel Polinomial de Segundo Grado* usando las métricas de desempeño derivadas del error (*MSE* y *MAE*), bajo el conjunto de datos del [casas.csv](conjuntos/casas.csv).
+
+> Libreta
+
+[S402.ipynb](S402.ipynb)
+
+Con esta clase práctica se podrá trabajar sobre la práctica [ML-CIC-IPN-P401](ML-CIC-IPN-P401.pdf).
